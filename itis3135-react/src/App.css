@@ -138,3 +138,11 @@ footer a:hover {
     background-color: #0b5345;
   }
 }
+
+.students-page ul{
+  text-align: left;
+}
+
+.students-page img {
+  max-width: 400px;
+}
