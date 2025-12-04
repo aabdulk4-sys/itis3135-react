@@ -12,26 +12,11 @@ function App() {
     <>
       <Header />
       <title>Ayah Abdulkareem | ITIS3135 Home Page</title>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <main>
+        <h2>ITIS 3135 Course Page</h2>
+        <p>Hello and welcome! My name is Ayah Abdulkareem, a Computer Science student at UNC Charlotte concentrating in Human-Computer Interaction. I am passionate about technology, design, and exploring how people interact with digital tools in meaningful ways.
+          This page serves as my central hub. Use the navigation links above to visit my ITIS3135 coursework (Home, Introduction, Contract, and more), check out my GitHub projects, or connect with me professionally.</p>
+      </main>
       <Footer />
     </>
   )

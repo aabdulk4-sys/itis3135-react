@@ -1,42 +1,140 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+/* ---------- Global Styles ---------- */
+body {
+  background-color: #d4ac0d;
+  color: #222;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- Header ---------- */
+header {
+  background-color: #0b5345;         
+  color: #ffffff;
   text-align: center;
+  padding: 1.2rem 0;
+  border-bottom: 3px solid #117a65;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  color: #d4ac0d;                 
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+/* ---------- Navigation ---------- */
+nav a {
+  color: #f9e79f;                    
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* ---------- Main Content ---------- */
+main {
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0 auto;                    
+  width: 90%;                        
+  max-width: 1200px;                 
+  padding: 1.5rem;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+h2 {
+  color: #117a65;                    
+  font-family: "Montserrat", sans-serif;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background-color: #0b5345;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  border-top: 3px solid #117a65;
+}
+
+footer a {
+  color: #aed6f1;                    
+  text-decoration: none;
+  margin: 0 0.4rem;
+}
+
+footer a:hover {
+  color: #76d7c4;
+  text-decoration: underline;
+}
+
+/* ---------- Tablet Devices ---------- */
+@media screen and (min-width: 601px) and (max-width: 980px) {
+  body {
+    background-color: #f2f9f9;
   }
-  to {
-    transform: rotate(360deg);
+
+  header {
+    background-color: #117a65;       
+  }
+
+  nav a {
+    color: #0b5345;                 
+  }
+
+  nav a:hover {
+    color: #117a65;
+  }
+
+  main {
+    width: 95%;
+    max-width: 900px;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+/* ---------- Mobile Devices ---------- */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #ffffff;
+    font-size: 16px;
   }
-}
 
-.card {
-  padding: 2em;
-}
+  header {
+    background-color: #1abc9c;
+    padding: 0.8rem;
+  }
 
-.read-the-docs {
-  color: #888;
+  header h1 {
+    font-size: 1.4rem;
+  }
+
+  nav a {
+    display: block;
+    padding: 6px 0;
+    color: #0b5345;                  
+    font-weight: 600;
+  }
+
+  nav a:hover {
+    color: #117a65;
+  }
+
+  main {
+    width: 95%;
+    max-width: 500px;
+    padding: 0.8rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    background-color: #0b5345;
+  }
 }
