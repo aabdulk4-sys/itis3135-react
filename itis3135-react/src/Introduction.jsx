@@ -1,5 +1,7 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import image from "./images/ayah_mirror.JPG"
+
 export default function Introduction() {
     return (
         <>
@@ -9,7 +11,7 @@ export default function Introduction() {
                 <h2>Welcome to My Personal Home Page</h2>
                 
 
-                {/*<img src=" alt="Post-hired mirror picture" style="width:180px; border-radius:10px;"> */}
+                <img src={image} alt="Post-hired mirror picture" style={{ width:"180px"}} />
 
 
                 <p><strong>Ayah A. Abdulkareem | Ambitious Antelope</strong></p>
@@ -29,21 +31,21 @@ export default function Introduction() {
                 <p>Apple laptop running macOS, primarily work at home or on campus.</p>
 
                 <h3>Courses I’m Taking & Why</h3>
-                <ul style="text-align:left; max-width:650px; margin: 1rem auto;">
+                <ul style={{ textAlign: "left", maxWidth: "650px", margin: "1rem auto" }}>
                 <li><strong>ITIS 4350 – Design Prototyping:</strong> Required course; will teach me how to sketch and prototype on paper.</li>
                 <li><strong>ITIS 3135 – Front-End Web Application Development:</strong> Required course; will teach me about web applications.</li>
                 <li><strong>ITIS 3130 – Introduction to Human-Centered Computing:</strong> Required course; will teach me how to prioritize user needs, experiences, and ethical considerations.</li>
                 <li><strong>ITIS 4353 – Social Technology Design:</strong> Will examine designs for social media platforms and help me understand the social impact of spending at least part of our lives online.</li>
                 </ul>
 
-                <blockquote style="font-style: italic; margin: 2rem auto; width:80%;">
+                <blockquote style={{ fontStyle: "italic", margin: "2rem auto", width: "80%" }}>
                 "If you expect disappointment, then you can never really get disappointed."  
                 — MJ (Spider-Man: No Way Home)
                 </blockquote>
 
             
 
-                <p style="margin-top:2rem; font-size:0.95rem; color:#555;">
+                <p style={{ marginTop: "2rem", fontSize: "0.95rem", color: "#555" }}>
                 <em>I acknowledge that any information I post on here will be public. — AA 08/24/2025</em>
                 </p>
 
