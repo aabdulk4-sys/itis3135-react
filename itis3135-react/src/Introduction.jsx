@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import image from "./images/ayah_mirror.JPG"
+import './App.css'
 
 export default function Introduction() {
     return (
