@@ -4,6 +4,7 @@ import App from './App.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router'
 import Introduction from './Introduction.jsx'
 import Contract from './Contract.jsx'
+import Students from './Students.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')).render(
               <Route path='/' element={<App />}></Route>
               <Route path='/introduction' element={<Introduction />}></Route>
               <Route path='/contract' element={<Contract />}></Route>
+              <Route path='/students' element={<Students />}></Route>
             </Routes>
         </BrowserRouter>
     </StrictMode>,
