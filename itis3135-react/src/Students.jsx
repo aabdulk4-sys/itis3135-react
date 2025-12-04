@@ -27,7 +27,7 @@ export default function Students() {
   return (
     <>
       <Header />
-
+      <title>ITIS3135 | Ayah Abdulkareem's | Ambitious Antelope | Students</title>
       <main className="students-page" style={{ padding: "20px", maxWidth: "1000px", margin: "auto" }}>
         <h1>ITIS 3135 – Student Introductions</h1>
 
